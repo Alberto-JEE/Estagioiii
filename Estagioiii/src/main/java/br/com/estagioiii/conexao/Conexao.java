@@ -17,8 +17,8 @@ public class Conexao {
     private static final String dns = "localhost";
     private static final String bd = "josuequestionario";
     private static final String usuario = "root";
-    private static final String senha = "he#3512";
-    private static final int porta = 3308;
+    private static final String senha = "terraonline";
+    private static final int porta = 3309;
     private static Connection con;
 
     public static void getConexao() {
