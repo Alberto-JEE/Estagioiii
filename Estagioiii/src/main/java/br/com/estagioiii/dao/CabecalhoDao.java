@@ -19,6 +19,7 @@ import java.util.logging.Logger;
 
 public class CabecalhoDao {
 
+    //Panorama
     private static PreparedStatement statement;
     private static ResultSet resultSet;
     private static String sql;
