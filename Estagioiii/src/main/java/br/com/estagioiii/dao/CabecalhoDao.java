@@ -22,6 +22,7 @@ public class CabecalhoDao {
     private static PreparedStatement statement;
     private static ResultSet resultSet;
     private static String sql;
+    private int porta;
 
     public static boolean insereUsuario(CabecalhoModel cabecalhoModel) {
         sql = "INSERT INTO cabecalho (tituloquestionario,assuntoquestionario,usuario_id,idnovoquestionario) VALUES (?,?,?,?)";
